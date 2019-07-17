@@ -1,0 +1,32 @@
+div{
+	display: inline-block;
+	box-sizing: border-box;
+	background-color: yellow ; 
+	width: 100px ;  
+	height: 100px ; 
+	margin: 10px ;
+	padding:2px ;
+	border: solid 1px;  
+	transition: 2s ease ;
+} 
+.animated {
+	background-color: blue ;  
+	opacity:0.4 ;
+	transition-property: width,height,background-color,transform ; 
+	transition-duration:1s; 
+}
+.animated:hover{
+	width: 15% ; 
+	background-color: red ; 
+	border-radius: 2px ; 
+	transform: rotate(360deg);
+	height: 60px ; 
+	opacity: 1 ; 
+
+}
+div:hover{
+	width: 200px ; 
+	height: 70px ; 
+	background-color: #800040 ;
+	border-radius: 3px  ;
+}

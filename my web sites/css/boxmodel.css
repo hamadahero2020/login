@@ -1,0 +1,17 @@
+h1 {
+	text-align: center;
+}
+
+div {
+	column-count: 2;
+	border-radius: 25px ; 
+	background-color: blue ; 
+	box-sizing: border-box;
+
+	border: 10px solid ; 
+	padding: 15px ; 
+	display: inline-block;
+	margin: 20px ;
+	width: 40% ;
+	margin: 0-auto ;   
+}

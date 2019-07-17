@@ -1,0 +1,37 @@
+body {
+ 	margin: 1%
+	padding:1% ; 
+	background-color: #f2f2f2; 
+}
+
+nav {
+		box-sizing:border-box;
+		display: inline-block;
+		width: 15%; 
+		background-color: #800040 ; 
+		height: 100vh ;  
+		border: 2px solid ; 
+		min-width: 125px ; 
+	
+}
+
+nav a {
+	color: #ffffff; 
+	display: block;
+	text-decoration: none ; 
+	margin:10px 0px  10px 5px;
+	line-height: 45px ;    /*to center "home,about,.." in the center of the nav */
+	padding-left: 50px ; 
+	height: 45px ;
+
+
+}
+
+section  {
+	display: inline-block; 
+	width: 70% ; 
+	height: 100vh ;
+	height: 100px ;
+
+	 
+}
