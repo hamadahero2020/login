@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(5.jpg);
+    background-size: cover;
+}
+
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    padding: 40px;
+    background: rgba(0,0,0,.8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+
+.box h2 {
+    color: aliceblue ; 
+    text-align: center; 
+    padding: 0; 
+    margin: 0 0 30px  ;
+    
+}
+
+.box .inputbox {
+    position: relative ; 
+    
+}
+
+.box .inputbox input {
+    
+    width: 100% ; 
+    padding: 10px 0 ; 
+    font-size: 16px ;
+    letter-spacing: 1px ;
+    background: transparent ; 
+    border: none ; 
+    outline: none ; 
+    border-bottom: 1px solid #fff ; 
+    color: #fff ; 
+    margin-bottom: 40px; 
+    
+}
+
+.box .inputbox label {
+	letter-spacing: 1px ; 
+    position: absolute; 
+    top: 0 ;
+    left: 0;
+    padding: 10px 0 ; 
+    font-size: 16px ;
+    color: aliceblue; 
+    pointer-events: none;
+    transition: .5s ; 
+    
+}
+
+
+.box .inputbox input:focus ~ label,
+.box .inputbox input:valid ~ label
+{
+    
+    top: -20px ;
+    left: 0px ;
+    color: aqua ; 
+    font-size: 12px ;
+
+}
+
+.box input[type="submit"]
+{
+	background: transparent; 
+	border: none;
+	background-color: #03a9f4 ;
+	color: #fff ; 
+	padding: 10px ;
+	width: 90px;
+	border-radius: 5px ; 
+}
+
+a {
+    color: aliceblue ; 
+    display: inline-block;
+    margin-left: 100px ; 
+    
+}
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+
